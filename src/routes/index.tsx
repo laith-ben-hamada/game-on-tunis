@@ -41,11 +41,11 @@ export const Route = createFileRoute("/")({
         content:
           "Escape rooms, 400+ board games, axe throwing, karaoke and more on 1000 m² in Ain Zaghouane, Tunis. Open daily. Book on +216 20 641 111.",
       },
-      { property: "og:title", content: "The Game Production — Fun HQ in Tunis" },
+      { property: "og:title", content: "The Game Production — Escape Rooms & Games in Tunis" },
       {
         property: "og:description",
         content:
-          "Tunis' ultimate indoor entertainment complex: escape rooms, board game café, axe throwing, karaoke. Open every day in Ain Zaghouane.",
+          "Escape rooms, 400+ board games, axe throwing, karaoke and more on 1000 m² in Ain Zaghouane, Tunis. Open daily. Book on +216 20 641 111.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

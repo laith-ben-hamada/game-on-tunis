@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "The Game Production — Escape Rooms & Games in Tunis" },
+      { name: "description", content: "Escape rooms, 400+ board games, axe throwing, karaoke and more on 1000 m² in Ain Zaghouane, Tunis. Open daily. Book on +216 20 641 111." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "The Game Production — Escape Rooms & Games in Tunis" },
+      { property: "og:description", content: "Escape rooms, 400+ board games, axe throwing, karaoke and more on 1000 m² in Ain Zaghouane, Tunis. Open daily. Book on +216 20 641 111." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "The Game Production — Escape Rooms & Games in Tunis" },
+      { name: "twitter:description", content: "Escape rooms, 400+ board games, axe throwing, karaoke and more on 1000 m² in Ain Zaghouane, Tunis. Open daily. Book on +216 20 641 111." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c2cb9b2d-02e5-43f2-b24f-2a697ff859b6/id-preview-d8674ece--2e2cc94f-dc45-404d-8723-53adec6819fb.lovable.app-1785744632442.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c2cb9b2d-02e5-43f2-b24f-2a697ff859b6/id-preview-d8674ece--2e2cc94f-dc45-404d-8723-53adec6819fb.lovable.app-1785744632442.png" },
     ],
     links: [
       {
